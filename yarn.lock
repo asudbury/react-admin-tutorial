@@ -8822,10 +8822,10 @@ quick-lru@^5.1.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
-ra-core@^3.19.8:
-  version "3.19.8"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-3.19.8.tgz#ce16b2b568d932e13700eef8d5a77bd63761d350"
-  integrity sha512-EyN4pBDfrgBaZol+IfxrN5khtvnmVSeUDU1b5a1aPHAcbZly72eVI0rdPZUABrs8z6h82T0sUkzgC6kV5trM6A==
+ra-core@^3.19.12, ra-core@^3.19.8:
+  version "3.19.12"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-3.19.12.tgz#440afa96b18b5170c0b00965c3747a5223277b8d"
+  integrity sha512-E0cM6OjEUtccaR+dR5mL1MLiVVYML0Yf7aPhpLEq4iue73X3+CKcLztInoBhWgeevPbFQwgAtsXhlpedeyrNNg==
   dependencies:
     classnames "~2.3.1"
     date-fns "^1.29.0"
@@ -8836,13 +8836,13 @@ ra-core@^3.19.8:
     query-string "^5.1.1"
     reselect "~3.0.0"
 
-ra-data-json-server@^3.19.0:
-  version "3.19.8"
-  resolved "https://registry.yarnpkg.com/ra-data-json-server/-/ra-data-json-server-3.19.8.tgz#e5fa5f3187e1475cab4d2e24b9ce0bbb2127a3e2"
-  integrity sha512-FfvQtHDHrlYA4bIsBggZqUamm+cAOBP0JOUgBNJ1MYvp9cvbjedIX/YGI2OUloKteEklnt/kWL7uydwGMCWkEw==
+ra-data-json-server@^3.19.12:
+  version "3.19.12"
+  resolved "https://registry.yarnpkg.com/ra-data-json-server/-/ra-data-json-server-3.19.12.tgz#1e7e9b13192863556cb5c4e02dfb8c027666abc4"
+  integrity sha512-SEa0ueZd9LUG6iuPnHd+MHWf7BTgLKjx3Eky16VvTsqf6ueHkMU8AZiH1pHzrdxV6ku5VL34MCYWVSIbm2iDnw==
   dependencies:
     query-string "^5.1.1"
-    ra-core "^3.19.8"
+    ra-core "^3.19.12"
 
 ra-i18n-polyglot@^3.19.8:
   version "3.19.8"
